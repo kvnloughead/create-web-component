@@ -1,0 +1,26 @@
+{
+  "name": "create-web-component",
+  "version": "0.1.0",
+  "description": "Automates creation of web components",
+  "main": "build/cli.js",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "keywords": [
+    "CLI",
+    "Web Components"
+  ],
+  "author": "Kevin Loughead (https://kevinloughead.com)",
+  "license": "MIT",
+  "bin": {
+    "cwc": "./build/cli.js"
+  },
+  "dependencies": {
+    "yargs": "^17.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.30",
+    "@types/yargs": "^17.0.10",
+    "typescript": "^4.6.4"
+  }
+}
