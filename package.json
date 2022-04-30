@@ -4,7 +4,8 @@
   "description": "Automates creation of web components",
   "main": "build/cli.js",
   "scripts": {
-    "build": "npx tsc"
+    "build": "npx tsc",
+    "cwc": "npx tsc && cwc"
   },
   "keywords": [
     "CLI",
